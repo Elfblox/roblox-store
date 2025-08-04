@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elf Games Clothing Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      padding: 40px;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .store-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+    }
+    .item-card {
+      width: 200px;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .item-card:hover {
+      transform: translateY(-6px);
+    }
+    .item-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background: #eee;
+    }
+    .item-info {
+      padding: 16px;
+    }
+    .item-name {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0 0 6px;
+    }
+    .item-price {
+      font-size: 15px;
+      color: #28a745;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .item-link a {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #007bff;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .item-link a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧢 Elf Games Clothing Store</h1>
+  <div class="store-grid">
+    <div class="item-card">
+      <img src="https://tr.rbxcdn.com/8376fdc8c127788948c1f00f6e69f190/420/420/Avatar" alt="Black Digi Camo Pants">
+      <div class="item-info">
+        <p class="item-name">Black Digi Camo Pants</p>
+        <p class="item-price">💰 5</p>
+        <div class="item-link">
+          <a href="https://www.roblox.com/catalog/17170078954/Black-Digi-Camo-Pants" target="_blank">View Item</a>
+        </div>
+      </div>
+    </div>
+    <!-- Add more items here -->
+  </div>
+</body>
+</html>
